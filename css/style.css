@@ -114,6 +114,7 @@ nav.navbar.navbar-light.bg-light {
   height: 200px;
   text-align:center;
   font-weight:600;
+  font-size: large;
 }
 .menun{
   text-decoration: none;
