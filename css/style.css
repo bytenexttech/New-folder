@@ -150,8 +150,11 @@ nav.navbar.navbar-light.bg-light {
   color:#00000095
 }
 
-.img-fluid{
+#homeimage{
   margin-top: 60px;
+}
+#aboutusimg{
+  margin-top: 10px;
 }
 
 div.navbar-brand {
