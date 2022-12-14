@@ -15,7 +15,7 @@ nav.navbar.navbar-light.bg-light {
     justify-content: space-between;
  } */
 
- .container {
+ #ser {
     display: flex;
     flex-direction: row;
     font-size: 30px;
@@ -37,7 +37,7 @@ nav.navbar.navbar-light.bg-light {
   
   /* Responsive layout - makes a one column-layout instead of two-column layout */
   @media (max-width: 800px) {
-    .container {
+    #ser {
       flex-direction: column;
     }
 }
@@ -171,5 +171,16 @@ p{
   transition: transform .2s; /* Animation */
   margin: 0 auto;
 }
-#menumode{
+.bd-placeholder-img{
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
 }
+
+.bd-placeholder-img:hover{
+  transform: scale(0.9);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
