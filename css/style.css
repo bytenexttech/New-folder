@@ -108,11 +108,19 @@ nav.navbar.navbar-light.bg-light {
   color: #273342;
 }
 .modal-body {
+  margin-top: 100px;
   border:2px solid #ddd;
   padding-left:20px;
   height: 200px;
   text-align:center;
   font-weight:600;
+}
+.menun{
+  text-decoration: none;
+  color: black;
+}
+.menun:hover{
+  color: black;
 }
 .modal-footer {
   position:relative;
